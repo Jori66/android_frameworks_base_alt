@@ -1853,4 +1853,7 @@
     <bool name="config_switch_phone_on_voice_reg_state_change">true</bool>
 
     <bool name="config_sms_force_7bit_encoding">false</bool>
+
+    <!-- Boolean to enable adb by default on a per-device basis -->
+    <bool name="config_enableAdbByDefault">false</bool>
 </resources>
