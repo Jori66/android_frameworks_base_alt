@@ -1,3 +1,4 @@
+
 /*
  * Copyright (C) 2014 The Android Open Source Project
  *
@@ -33,6 +34,7 @@ import android.util.Pair;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewStub;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 import com.android.systemui.R;
 import com.android.systemui.recents.misc.DebugTrigger;
@@ -243,10 +245,12 @@ public class RecentsActivity extends Activity implements RecentsView.RecentsView
             }
             mEmptyView.setVisibility(View.VISIBLE);
             mRecentsView.setSearchBarVisibility(View.GONE);
+            findViewById(R.id.clear_recents).setVisibility(View.GONE);
         } else {
             if (mEmptyView != null) {
                 mEmptyView.setVisibility(View.GONE);
             }
+            findViewById(R.id.clear_recents).setVisibility(View.VISIBLE);
             if (mRecentsView.hasSearchBar()) {
                 mRecentsView.setSearchBarVisibility(View.VISIBLE);
             } else {
