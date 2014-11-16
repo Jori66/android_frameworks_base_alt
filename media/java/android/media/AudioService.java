@@ -50,6 +50,7 @@ import android.media.MediaPlayer.OnCompletionListener;
 import android.media.MediaPlayer.OnErrorListener;
 import android.media.audiopolicy.AudioPolicyConfig;
 import android.media.session.MediaSessionLegacyHelper;
+import android.net.Uri;
 import android.os.Binder;
 import android.os.Build;
 import android.os.Environment;
@@ -874,7 +875,6 @@ public class AudioService extends IAudioService.Stub {
 
             updateRingerModeAffectedStreams();
             readDockAudioSettings(cr);
-            mSafeVolumeEnabled = new Boolean(safeVolumeEnabled(cr));
 
             mVolumeKeysControlMediaStream = Settings.System.getIntForUser(cr,
                     Settings.System.VOLUME_KEYS_CONTROL_MEDIA_STREAM, 0, UserHandle.USER_CURRENT) == 1;
@@ -4291,8 +4291,8 @@ public class AudioService extends IAudioService.Stub {
         }
 
         @Override
-        public void onChange(boolean selfChange) {
-            super.onChange(selfChange);
+        public void onChange(boolean selfChange, Uri uri) {
+            super.onChange(selfChange, uri);
             // FIXME This synchronized is not necessary if mSettingsLock only protects mRingerMode.
             //       However there appear to be some missing locks around mRingerModeMutedStreams
             //       and mRingerModeAffectedStreams, so will leave this synchronized for now.
