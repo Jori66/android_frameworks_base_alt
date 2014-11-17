@@ -4887,24 +4887,14 @@
     <!-- Zen mode condition: no exit criteria. [CHAR LIMIT=NONE] -->
     <string name="zen_mode_forever">Indefinitely</string>
 
-    <!-- Text of the checkbox for the permission confirmation dialog to remember the user's choice. [CHAR LIMIT=40] -->
-    <string name="permission_remember_choice">Remember</string>
-    <string name="permission">Permission request</string>
-    <string name="permission_dialog_text">%1$s would like to %2$s</string>
-
-    <!-- Title of dialog to confirm rebooting. -->
-    <string name="reboot_title">Reboot</string>
-
-    <!-- Reboot Confirmation Dialog.  When the user chooses to reboot the device, there will
-         be a confirmation dialog.  This is the message. -->
-    <string name="reboot_confirm" product="tablet">Your tablet will reboot.</string>
-    <string name="reboot_confirm" product="default">Your phone will reboot.</string>
-    
-    <!-- Reboot to recovery -->
-    <string name="global_action_rebootrecovery">Reboot recovery</string>
-    <string name="global_action_reboot">Reboot</string>
-
-    <!-- Reboot to bootloader -->
-    <string name="global_action_rebootbootloader">Reboot bootloader</string>
+    <!-- Reboot Options dialog -->
+    <string name="reboot_reboot">Reboot</string>
+    <string name="reboot_recovery">Recovery</string>
+    <string name="reboot_bootloader">Bootloader</string>
+    <string name="reboot_progress">Rebooting\u2026</string>
+    <string name="restart_power_menu_title">Restarting</string>
+    <string name="restart_power_menu_message">Please wait....</string>
+    <string name="reboot_system" product="tablet">Reboot tablet</string>
+    <string name="reboot_system" product="default">Reboot phone</string>
 </resources>
 

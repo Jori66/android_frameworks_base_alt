@@ -528,7 +528,6 @@
         <item>中文 (繁體)</item>
     </string-array>
 
-
     <!-- User display names for app ops codes -->
     <string-array name="app_ops_labels">
         <item>access location</item>
@@ -591,6 +590,17 @@
         <item>delete contacts</item>
         <item>delete call log</item>
         <item>turn on mobile data</item>
+
+    <array name="shutdown_reboot_options" translatable="false">
+        <item>@string/reboot_reboot</item>
+        <item>@string/reboot_recovery</item>
+        <item>@string/reboot_bootloader</item>
+    </array>
+
+    <string-array name="shutdown_reboot_actions" translatable="false">
+        <item></item>
+        <item>recovery</item>
+        <item>bootloader</item>
     </string-array>
 
 </resources>
