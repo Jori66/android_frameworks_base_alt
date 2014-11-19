@@ -590,6 +590,7 @@
         <item>delete contacts</item>
         <item>delete call log</item>
         <item>turn on mobile data</item>
+    </string-array>
 
     <array name="shutdown_reboot_options" translatable="false">
         <item>@string/reboot_reboot</item>
