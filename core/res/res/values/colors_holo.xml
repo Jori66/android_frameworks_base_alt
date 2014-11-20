@@ -15,15 +15,7 @@
 -->
 
 <!-- Colors specific to Holo themes. -->
-<resources>
-
-    <drawable name="dialog_holo_dark_frame">@drawable/dialog_full_holo_dark</drawable>
-    <drawable name="dialog_holo_light_frame">@drawable/dialog_full_holo_light</drawable>
-    <drawable name="input_method_fullscreen_background_holo">@drawable/screen_background_holo_dark</drawable>
-
-    <drawable name="screen_background_holo_light">#fff3f3f3</drawable>
-    <drawable name="screen_background_holo_dark">#ff000000</drawable>
-
+<resources>         
     <color name="background_holo_dark">#ff000000</color>
     <color name="background_holo_light">#fff3f3f3</color>
     <color name="bright_foreground_holo_dark">@color/background_holo_light</color>
