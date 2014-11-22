@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- User display names for app ops codes -->
+    <string-array name="app_ops_labels">
+        <item>position</item>
+        <item>position</item>
+        <item>position</item>
+        <item>vibreur</item>
+        <item>accéder aux contacts</item>
+        <item>modifier les contacts</item>
+        <item>lire le journal d\'appels</item>
+        <item>modifier le journal d\'appels</item>
+        <item>accéder à l\'agenda</item>
+        <item>modifier l\'agenda</item>
+        <item>position</item>
+        <item>publier des notifications</item>
+        <item>position</item>
+        <item>appeler</item>
+        <item>lire des SMS ou des MMS</item>
+        <item>écrire des SMS ou des MMS</item>
+        <item>recevoir des SMS/MMS</item>
+        <item>recevoir des SMS/MMS</item>
+        <item>recevoir des SMS/MMS</item>
+        <item>recevoir des SMS/MMS</item>
+        <item>envoyer des SMS/MMS</item>
+        <item>lire des SMS ou des MMS</item>
+        <item>écrire des SMS ou des MMS</item>
+        <item>modifier les paramètres</item>
+        <item>dessiner par dessus</item>
+        <item>accéder aux notifications</item>
+        <item>appareil photo/caméra</item>
+        <item>enregistrer fichier audio</item>
+        <item>lire le fichier audio</item>
+        <item>lire le Presse-papiers</item>
+        <item>modifier le Presse-papiers</item>
+        <item>boutons multimédias</item>
+        <item>priorité audio</item>
+        <item>volume général</item>
+        <item>volume de la voix</item>
+        <item>volume de la sonnerie</item>
+        <item>volume des contenus multimédiase</item>
+        <item>volume de l\'alarme</item>
+        <item>volume des notifications</item>
+        <item>volume Bluetooth</item>
+        <item>maintenir activé</item>
+        <item>position</item>
+        <item>position</item>
+        <item>obtenir des statistiques d\'utilisation</item>
+        <item>désactiver le microe</item>
+        <item>afficher une notification toast</item>
+        <item>projeter des contenus multimédias</item>
+        <item>activer le VPN</item>
+        <item>activer/désactiver Wi-Fi</item>
+        <item>activer/désactiver Bluetooth</item>
+        <item>envoyer des SMS/MMS</item>
+        <item>lire des SMS ou des MMS</item>
+        <item>envoyer des SMS/MMS</item>
+        <item>se lancer au démarrage</item>
+        <item>activer/désactiver NFC</item>
+        <item>supprimer SMS</item>
+        <item>supprimer MMS</item>
+        <item>supprimer contacts</item>
+        <item>supprimer le journal d\'appels</item>
+        <item>activer les données mobiles</item>
+    </string-array>
+
+</resources>
