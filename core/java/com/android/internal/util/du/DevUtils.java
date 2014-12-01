@@ -1,4 +1,4 @@
-package com.android.internal.util.terminus;
+package com.android.internal.util.du;
 
 import android.app.ActivityManagerNative;
 import android.app.IActivityManager;
